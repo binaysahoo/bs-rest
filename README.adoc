@@ -159,6 +159,9 @@ to further modify the class. The following listing
 (from src/main/java/com/example/restservice/RestServiceApplication.java) shows the
 application class:
 
+ ./mvnw spring-boot:run -Dspring-boot.run.arguments=--server.port=9090
+
+
 ====
 [source,java]
 ----
